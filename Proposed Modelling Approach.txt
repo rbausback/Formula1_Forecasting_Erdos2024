@@ -1,0 +1,25 @@
+-----May25th----------------------
+
+Proposed Modelling Approach:
+
+Split on 2021:
+------------
+races> 2021 are testing. 
+races before 2021 are for training
+
+
+
+Model :
+------------
+Features: Practice time (seconds), Gap (sec), and # of laps for each practice (For each of the three practices). 
+
+
+Baseline: Choose a practice time (in the order) and that is just the grid position. (or maybe grid position is just 10?)
+
+
+Models: Do softmax/cross entropy loss for Dense nn. The output of NN will be the probability that a particular driver has a particular starting grid position 
+
+Also linear regression on the three practices variables. 
+
+-What if we don't have the same number of drivers per race? 
+
