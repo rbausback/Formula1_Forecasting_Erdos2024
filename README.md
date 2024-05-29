@@ -20,7 +20,7 @@
       - Warm-Up: Some circuits have a warm-up session on Sunday morning, allowing teams to do final checks on the cars and drivers to get accustomed to the track conditions.
       - Race: The main event, where drivers compete for points in the Formula 1 World Championship. The race distance is typically around 305 kilometers or a maximum of two hours, whichever comes first. The number of laps varies depending on the circuit's length.
 
-**Data Set:** Our dataset comes from the [official Formula 1 website](https://www.formula1.com). We consider the following variables from each driver across Grand Prix events spanning from 1994 to 2023.
+**Data Set:** Our dataset comes from the [official Formula 1 website](https://www.formula1.com), as well as the [pitwall.app](https://pitwall.app/) database. We consider the following variables from each driver across Grand Prix events spanning from 1994 to 2023.
   - number of laps completed in practice
   - fastest lap time and gap to fastest lap in practice
   - qualifying results
